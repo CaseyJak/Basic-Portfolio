@@ -271,6 +271,24 @@ h2{
 }
 
 
+            /* Train Schedule*/
+
+
+            .train {
+                position: relative;
+                transition: all .2s ease-in-out;
+            }
+            
+            .cap-train {
+                position: absolute;
+                bottom: 45px;
+            }
+            
+            .train:hover {
+                transform: scale(1.1)
+            }
+
+
         /*contact styling*/
 
 
